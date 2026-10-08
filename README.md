@@ -1,6 +1,10 @@
 # Data Communication Project 6
 
 
+
+## P0 roadmap 'pdf' file
+A document covering the roadmap for the 'P0' stage is uploaded in the 'main' tree. 
+
 ## LTE versus 5G NR for mixed IoT traffic
 
 This repository contains the ns-3 project material for Project 6 from the
@@ -144,27 +148,10 @@ statistics. It should not be confused with a claim that all 55 runs, five
 seeds per point, confidence intervals, or the complete handover matrix are
 already automated here.
 
-## Suggested marking path
-
-1. Start with this file to identify the project and scope.
-2. Check [`test_scenarious/p0_5g_cttc_nr_demo.txt`](./test_scenarious/p0_5g_cttc_nr_demo.txt)
-   and [`test_scenarious/output_cttc_nr_demo.txt`](./test_scenarious/output_cttc_nr_demo.txt)
-   for the P0 demonstration evidence and flow-level measurements.
-3. Inspect the headers and samples in [`Evidences/`](./Evidences/) to verify
-   the downlink/uplink MAC, RLC, PDCP, PHY, interference, and SINR outputs.
-4. Inspect [`test_scenarious/src/lte/`](./test_scenarious/src/lte/) for the
-   LTE/LENA implementation used by the ns-3 tree.
-5. Use the build commands above if a runnable Linux/WSL environment and a
-   compatible 5G-LENA installation are available.
 
 ## Current limitations
 
 - The repository has no single command that regenerates every evidence file.
 - The complete Project 6 55-run matrix and confidence-interval analysis are
   not included in the current checkout.
-- `p0_lte_lena_simple_epc.txt` is currently empty, so the LTE P0 result
-  should be regenerated if a separate LTE console transcript is required.
-- The P0 output files are demonstration evidence and should be interpreted
-  together with the raw protocol tables, not as a final LTE-versus-NR
-  comparison.
 
