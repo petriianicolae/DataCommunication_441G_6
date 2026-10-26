@@ -133,7 +133,7 @@ class SensorBurstApplication : public Application
     void
     StopApplication() override
     {
-        if (m_sendEvent.IsRunning())
+        if (m_sendEvent.IsPending())
         {
             Simulator::Cancel(m_sendEvent);
         }

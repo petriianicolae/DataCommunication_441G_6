@@ -174,8 +174,8 @@ The repository now includes a P1 simulation scaffold:
 ```bash
 cd test_scenarious
 python3 ns3 configure --enable-examples --disable-werror
-python3 ns3 build scratch-project6-p1-iot
-python3 ns3 run "scratch-project6-p1-iot --rat=lte --nSensors=20 --nVideo=5 --seed=1 --warmup=5 --simTime=30"
+python3 ns3 build project6-p1-iot
+python3 ns3 run "project6-p1-iot --rat=lte --nSensors=20 --nVideo=5 --seed=1 --warmup=5 --simTime=30"
 python3 p1_flowmon_to_csv.py --input p1_outputs/lte_s20_v5_seed1_flowmon.xml --output p1_outputs/lte_s20_v5_seed1_flows.csv --rat lte
 ```
 

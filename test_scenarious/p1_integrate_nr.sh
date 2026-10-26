@@ -20,11 +20,12 @@ curl -L --fail "${ARCHIVE_URL}" -o "${ARCHIVE_PATH}"
 mkdir -p "${EXTRACT_DIR}"
 tar -xf "${ARCHIVE_PATH}" -C "${EXTRACT_DIR}"
 
-NR_SRC="$(find "${EXTRACT_DIR}" -maxdepth 3 -type d -name nr | head -n 1 || true)"
-if [[ -z "${NR_SRC}" ]]; then
-  echo "Could not locate nr/ directory in archive."
+NR_HELPER_PATH="$(find "${EXTRACT_DIR}" -type f -path '*/helper/nr-helper.h' | head -n 1 || true)"
+if [[ -z "${NR_HELPER_PATH}" ]]; then
+  echo "Could not locate helper/nr-helper.h in archive."
   exit 1
 fi
+NR_SRC="$(dirname "$(dirname "${NR_HELPER_PATH}")")"
 
 rm -rf "${NR_DIR}"
 mkdir -p "${ROOT_DIR}/contrib"
