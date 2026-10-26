@@ -151,7 +151,36 @@ already automated here.
 
 ## Current limitations
 
+- The current repository checkout does not include `contrib/nr` by default.
+  Use `test_scenarious/p1_integrate_nr.sh` with a compatible 5G-LENA archive
+  before running NR scenarios.
 - The repository has no single command that regenerates every evidence file.
 - The complete Project 6 55-run matrix and confidence-interval analysis are
   not included in the current checkout.
 
+## P1 scaffold (common app layer + logging)
+
+The repository now includes a P1 simulation scaffold:
+
+- Scenario driver:
+  [`test_scenarious/scratch/project6-p1-iot.cc`](./test_scenarious/scratch/project6-p1-iot.cc)
+- FlowMonitor XML to CSV converter:
+  [`test_scenarious/p1_flowmon_to_csv.py`](./test_scenarious/p1_flowmon_to_csv.py)
+- NR integration helper:
+  [`test_scenarious/p1_integrate_nr.sh`](./test_scenarious/p1_integrate_nr.sh)
+
+### Build and run LTE P1 sanity
+
+```bash
+cd test_scenarious
+python3 ns3 configure --enable-examples --disable-werror
+python3 ns3 build scratch-project6-p1-iot
+python3 ns3 run "scratch-project6-p1-iot --rat=lte --nSensors=20 --nVideo=5 --seed=1 --warmup=5 --simTime=30"
+python3 p1_flowmon_to_csv.py --input p1_outputs/lte_s20_v5_seed1_flowmon.xml --output p1_outputs/lte_s20_v5_seed1_flows.csv --rat lte
+```
+
+Expected generated files:
+
+- `p1_outputs/<tag>_flowmon.xml`
+- `p1_outputs/<tag>_flows.csv`
+- `p1_outputs/<tag>_rrc_events.csv`
