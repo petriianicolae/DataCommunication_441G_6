@@ -1,0 +1,33 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/contrib/nr/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/applications/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/buildings/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/flow-monitor/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/lte/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/point-to-point/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/stats/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/internet-apps/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/internet/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/bridge/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/network/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/core/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/traffic-control/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/spectrum/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/propagation/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/mobility/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/antenna/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/virtual-net-device/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/csma/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/config-store/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/src/fd-net-device/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/examples/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/scratch/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/scratch/nested-subdir/cmake_install.cmake",
+		"/home/cristi/DataCommunication_Claude_Standalone/ns-3.48/cmake-cache/utils/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
