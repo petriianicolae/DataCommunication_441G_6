@@ -1,0 +1,9 @@
+tag,rat,variant,seed,flow,type,serving_cell,cl_ul_serving_db,los_serving,dl_geometry_db,sent,received,pdr_pct,goodput_mbps,lat_p50_ms,lat_p95_ms,ul_bler_pct,ul_mcs_mean,pusch_sinr_db,pusch_power_dbm,pusch_at_pmax_frac,sr_count,rlf
+lte_iso_s1_v0_seed1,lte,iso,1,0,sensor,1,101.0700,0,8.4800,80,80,100.0000,0.0027,13.7780,13.7780,0.0000,0.0000,,23.0000,1.0000,0.0000,0
+nr_iso-asis_s1_v0_seed1,nr,iso-asis,1,0,sensor,1,106.2400,0,8.4600,80,80,100.0000,0.0027,23.4140,23.4140,0.0000,21.4000,26.7000,23.0000,1.0000,176.0000,0
+nr_iso-fixed-allF_s1_v0_seed1,nr,iso-fixed-allF,1,0,sensor,1,106.2400,0,8.4600,80,80,100.0000,0.0027,8.4140,8.4140,0.0000,14.4000,24.7000,23.0000,1.0000,176.0000,0
+nr_iso-fixed-mu0_s1_v0_seed1,nr,iso-fixed-mu0,1,0,sensor,1,106.2400,0,8.4600,80,80,100.0000,0.0027,18.8780,18.8780,0.0000,20.1000,29.0000,23.0000,1.0000,176.0000,0
+nr_iso-fixed-mu2_s1_v0_seed1,nr,iso-fixed-mu2,1,0,sensor,1,106.2400,0,8.4600,80,80,100.0000,0.0027,5.1810,5.1810,0.0000,17.1000,22.6000,23.0000,1.0000,176.0000,0
+nr_iso-fixed_s1_v0_seed1,nr,iso-fixed,1,0,sensor,1,106.2400,0,8.4600,80,80,100.0000,0.0027,8.9140,8.9140,0.0000,18.4000,26.0000,23.0000,1.0000,176.0000,0
+nr_iso-ltelike-asis_s1_v0_seed1,nr,iso-ltelike-asis,1,0,sensor,1,101.1600,0,8.4800,80,80,100.0000,0.0027,31.8780,31.8780,0.0000,18.7000,33.1000,22.4000,0.6680,176.0000,0
+nr_iso-ltelike-fixed_s1_v0_seed1,nr,iso-ltelike-fixed,1,0,sensor,1,101.1600,0,8.4800,80,80,100.0000,0.0027,15.8780,15.8780,0.0000,16.8000,32.4000,22.4000,0.6680,176.0000,0
