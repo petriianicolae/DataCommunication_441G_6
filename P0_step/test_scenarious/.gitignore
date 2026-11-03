@@ -1,0 +1,6 @@
+build/
+cmake-cache/
+.lock-waf*
+*.o
+*.pyc
+*.log
